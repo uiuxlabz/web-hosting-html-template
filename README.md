@@ -4,6 +4,10 @@ A premium, fully responsive HTML template for green web hosting companies. Built
 
 **One-line pitch:** Fast, secure and 100% renewable web hosting for websites that care about the planet.
 
+## 📸 Screenshot
+
+![Homepage Preview](screenshot.png)
+
 ## 🎨 Design System
 
 A token-driven CSS design system lives in `assets/css/style.css` via `:root` custom properties.
