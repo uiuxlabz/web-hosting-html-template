@@ -1656,6 +1656,31 @@ h1, h2, h3, h4, h5, h6 {
   resize: vertical;
 }
 
+.contact {
+  background: var(--c-white);
+}
+
+.contact__form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form-wrapper .contact__form {
+  flex: 1;
+}
+
+.contact__form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap-sm);
+}
+
+.contact__info-card .contact__info-note {
+  color: var(--c-slate-light);
+  margin-top: 0.35rem;
+  line-height: 1.5;
+}
+
 /* ---- FAQ ---- */
 .faq {
   max-width: 800px;
@@ -1710,6 +1735,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: var(--text-sm);
   color: var(--c-slate);
   line-height: 1.7;
+}
+
+.faq__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+
+.faq__list details {
+  margin-bottom: 0;
 }
 
 /* ---- Domain Table ---- */
@@ -1869,6 +1904,7 @@ h1, h2, h3, h4, h5, h6 {
   .hero__trust { flex-direction: column; align-items: center; }
   .comparison table { font-size: var(--text-xs); }
   .comparison thead th, .comparison tbody td { padding: 0.6rem; }
+  .contact__form-row { grid-template-columns: 1fr; }
 }
 
 /* ---- Reduced Motion ---- */
